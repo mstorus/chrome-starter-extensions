@@ -1,0 +1,23 @@
+{
+  "name": "My chrome extension",
+  "description": "My chrome extension.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": [
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "commands": {
+    "my-command": {
+      "description": "My command",
+      "suggested_key": {
+        "default": "Ctrl+G",
+        "mac": "MacCtrl+G"
+      }
+    }
+  }
+}
