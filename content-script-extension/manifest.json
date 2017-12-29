@@ -1,0 +1,17 @@
+{
+  "name": "My chrome extension",
+  "description": "My chrome extension.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*",
+        "http://google.com/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ]
+}
